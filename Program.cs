@@ -1,29 +1,19 @@
 ﻿using System;
+using GameProject;
 
 namespace GameConsole
 {
     class Program
     {
-        class Game
-        {
-            private readonly string _Name;
-
-            public Game(string name)
-            {
-                _Name = name;
-            }
-
-            public void StartGame()
-            {
-                Console.WriteLine($"{_Name} deu um passe");
-            }
-        }
         static void Main(string[] args)
         {
-            var game = new Game("Lucas");
+            var game = new Game(
+                new Player1("Lucas"),
+                new Player2("Teste")
+            );
+
             game.StartGame();
+            Console.Read();
         }
     }
-
-
 }

@@ -1,0 +1,11 @@
+c:\Users\LucasJoaquimdaSilva\source\repos\GameProject\bin\Debug\netcoreapp3.0\GameProject.exe
+C:\Users\LucasJoaquimdaSilva\source\repos\GameProject\bin\Debug\netcoreapp3.0\GameProject.deps.json
+C:\Users\LucasJoaquimdaSilva\source\repos\GameProject\bin\Debug\netcoreapp3.0\GameProject.runtimeconfig.json
+C:\Users\LucasJoaquimdaSilva\source\repos\GameProject\bin\Debug\netcoreapp3.0\GameProject.runtimeconfig.dev.json
+c:\Users\LucasJoaquimdaSilva\source\repos\GameProject\bin\Debug\netcoreapp3.0\GameProject.dll
+c:\Users\LucasJoaquimdaSilva\source\repos\GameProject\bin\Debug\netcoreapp3.0\GameProject.pdb
+c:\Users\LucasJoaquimdaSilva\source\repos\GameProject\obj\Debug\netcoreapp3.0\GameProject.csprojAssemblyReference.cache
+c:\Users\LucasJoaquimdaSilva\source\repos\GameProject\obj\Debug\netcoreapp3.0\GameProject.AssemblyInfoInputs.cache
+c:\Users\LucasJoaquimdaSilva\source\repos\GameProject\obj\Debug\netcoreapp3.0\GameProject.AssemblyInfo.cs
+c:\Users\LucasJoaquimdaSilva\source\repos\GameProject\obj\Debug\netcoreapp3.0\GameProject.dll
+c:\Users\LucasJoaquimdaSilva\source\repos\GameProject\obj\Debug\netcoreapp3.0\GameProject.pdb
