@@ -27,7 +27,7 @@ namespace GameProject
 
         public string Shot()
         {
-            return $"\n {_Name} no chute";
+            return $" \n {_Name} no chute";
         }
     }
 }
