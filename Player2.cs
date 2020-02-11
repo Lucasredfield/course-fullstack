@@ -1,7 +1,6 @@
-using System;
-using GameProject;
+using Game.Interface;
 
-namespace GameConsole
+namespace GameProject
 {
     class Player2 : iPlayer
     {

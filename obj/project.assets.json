@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "Game.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Game.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Game.Interface.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Game.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Game.Interface/Game.Interface.csproj",
+      "msbuildProject": "../Game.Interface/Game.Interface.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "Game.Interface >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\LucasJoaquimdaSilva\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LucasJoaquimdaSilva\\source\\repos\\GameProject\\GameProject.csproj",
+      "projectUniqueName": "C:\\Users\\LucasJoaquimdaSilva\\source\\repos\\ConsoleCore\\GameProject\\GameProject.csproj",
       "projectName": "GameProject",
-      "projectPath": "C:\\Users\\LucasJoaquimdaSilva\\source\\repos\\GameProject\\GameProject.csproj",
+      "projectPath": "C:\\Users\\LucasJoaquimdaSilva\\source\\repos\\ConsoleCore\\GameProject\\GameProject.csproj",
       "packagesPath": "C:\\Users\\LucasJoaquimdaSilva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LucasJoaquimdaSilva\\source\\repos\\GameProject\\obj\\",
+      "outputPath": "C:\\Users\\LucasJoaquimdaSilva\\source\\repos\\ConsoleCore\\GameProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\LucasJoaquimdaSilva\\source\\repos\\ConsoleCore\\Game.Interface\\Game.Interface.csproj": {
+              "projectPath": "C:\\Users\\LucasJoaquimdaSilva\\source\\repos\\ConsoleCore\\Game.Interface\\Game.Interface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.0": {
       "GameProject/1.0.0": {
+        "dependencies": {
+          "Game.Interface": "1.0.0"
+        },
         "runtime": {
           "GameProject.dll": {}
+        }
+      },
+      "Game.Interface/1.0.0": {
+        "runtime": {
+          "Game.Interface.dll": {}
         }
       }
     }
   },
   "libraries": {
     "GameProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game.Interface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
